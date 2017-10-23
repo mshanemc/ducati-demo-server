@@ -53,6 +53,7 @@ let subscribeToPlatformEvents = () => {
     client.setHeader('Authorization', 'OAuth ' + org.oauth.access_token);
     client.subscribe('/event/Notification__e', function(notification) {
         // Send message to all connected Socket.io clients
+        console.log(notification);
         io.of('/').emit('message', {
             message: notification.payload.Message__c
         });
