@@ -1,0 +1,146 @@
+{
+  "mappings": [
+    {
+      "object_name": "Bike__c",
+      "config": {
+        "fields": {
+          "IsDeleted": {},
+          "Image_URL__c": {},
+          "SystemModstamp": {},
+          "Id": {},
+          "Name": {},
+          "CreatedDate": {}
+        },
+        "access": "read_only",
+        "sf_polling_seconds": 600,
+        "sf_max_daily_api_calls": 30000,
+        "sf_notify_enabled": false,
+        "indexes": {
+          "SystemModstamp": {
+            "unique": false
+          },
+          "Id": {
+            "unique": true
+          }
+        }
+      }
+    },
+    {
+      "object_name": "Badge_Earned__c",
+      "config": {
+        "fields": {
+          "Id": {},
+          "Customer__c": {},
+          "Badge__c": {},
+          "SystemModstamp": {},
+          "Name": {},
+          "IsDeleted": {},
+          "CreatedDate": {}
+        },
+        "sf_notify_enabled": true,
+        "indexes": {
+          "SystemModstamp": {
+            "unique": false
+          },
+          "Id": {
+            "unique": true
+          }
+        },
+        "sf_polling_seconds": 600,
+        "access": "read_only",
+        "sf_max_daily_api_calls": 30000
+      }
+    },
+    {
+      "object_name": "Contact",
+      "config": {
+        "sf_polling_seconds": 600,
+        "sf_notify_enabled": true,
+        "access": "read_only",
+        "sf_max_daily_api_calls": 30000,
+        "fields": {
+          "Phone": {},
+          "Birthdate": {},
+          "IsDeleted": {},
+          "PhotoUrl": {},
+          "FirstName": {},
+          "Id": {},
+          "Email": {},
+          "HomePhone": {},
+          "SystemModstamp": {},
+          "CreatedDate": {},
+          "Name": {},
+          "external_id__c": {}
+        },
+        "indexes": {
+          "SystemModstamp": {
+            "unique": false
+          },
+          "Id": {
+            "unique": true
+          }
+        }
+      }
+    },
+    {
+      "object_name": "Ducati_Badge__c",
+      "config": {
+        "fields": {
+          "Id": {},
+          "Image_URL__c": {},
+          "SystemModstamp": {},
+          "Name": {},
+          "CreatedById": {},
+          "IsDeleted": {},
+          "CreatedDate": {},
+          "Description__c": {}
+        },
+        "sf_notify_enabled": false,
+        "indexes": {
+          "SystemModstamp": {
+            "unique": false
+          },
+          "Id": {
+            "unique": true
+          }
+        },
+        "sf_polling_seconds": 600,
+        "access": "read_only",
+        "sf_max_daily_api_calls": 30000
+      }
+    },
+    {
+      "object_name": "Customer_Bikes__c",
+      "config": {
+        "fields": {
+          "IsDeleted": {},
+          "SystemModstamp": {},
+          "Id": {},
+          "Customer__c": {},
+          "Name": {},
+          "Purchase_Date__c": {},
+          "CreatedDate": {},
+          "Bike__c": {}
+        },
+        "access": "read_only",
+        "sf_polling_seconds": 600,
+        "sf_max_daily_api_calls": 30000,
+        "sf_notify_enabled": false,
+        "indexes": {
+          "SystemModstamp": {
+            "unique": false
+          },
+          "Id": {
+            "unique": true
+          }
+        }
+      }
+    }
+  ],
+  "connection": {
+    "app_name": "YOUR_APP",
+    "organization_id": "YOUR_ORG_ID",
+    "exported_at": "2017-11-20T22:03:10.565076+00:00"
+  },
+  "version": 1
+}
