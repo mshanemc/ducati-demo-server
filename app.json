@@ -1,5 +1,5 @@
 {
-	"name" : "Customer Experience Mobile Backend",
+	"name" : "Customer Mobile App Backend",
 	"repository": "https://github.com/mshanemc/ducati-demo-server",
 	"env": {
 		"SF_CLIENT_ID": {
