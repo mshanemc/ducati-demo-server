@@ -16,5 +16,13 @@
 		"SF_USER_PASSWORD": {
 			"description": "Password for SF_USER_NAME"
 		}
-	}
+	},
+	"addons": [
+		{
+			"plan": "heroku-postgresql:hobby-dev"
+		},
+		{
+			"plan": "herokuconnect:demo"
+		}
+	]
 }
