@@ -1,0 +1,20 @@
+{
+	"name" : "Customer Experience Mobile Backend",
+	"repository": "https://github.com/mshanemc/ducati-demo-server",
+	"env": {
+		"SF_CLIENT_ID": {
+			"description": "Connected App ID (aka Consumer Key)",
+			"value" : "3MVG9g9rbsTkKnAXoRfkkuM8g62G644ka1cOF8WLJdxdA1wyViZooUc.siQ4moYXQIsZy9aXrhD7QSjC_d72t"
+		},
+		"SF_CLIENT_SECRET": {
+			"description": "Client Secret",
+			"value": "8664013232348541455"
+		},
+		"SF_USER_NAME": {
+			"description": "Salesforce username of the org platform events will come"
+		},
+		"SF_USER_PASSWORD": {
+			"description": "Password for SF_USER_NAME"
+		}
+	}
+}
