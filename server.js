@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 let nforce = require('nforce');
 let cors = require('cors');
 let express = require('express');
