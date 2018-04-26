@@ -15,6 +15,10 @@
 		},
 		"SF_USER_PASSWORD": {
 			"description": "Password for SF_USER_NAME"
+		},
+		"SF_ENVIRONMENT": {
+			"description": "production or test",
+			"value": "test"
 		}
 	},
 	"addons": [
