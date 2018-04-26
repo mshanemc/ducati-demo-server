@@ -18,7 +18,7 @@
 		},
 		"SF_ENVIRONMENT": {
 			"description": "production or test",
-			"value": "test"
+			"value": "sandbox"
 		}
 	},
 	"addons": [
