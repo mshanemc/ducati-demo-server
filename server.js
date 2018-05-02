@@ -145,7 +145,6 @@ conn.login(process.env.SFDC_USERNAME, process.env.SFDC_PASSWORD, function (err, 
                 message: notification.payload.Message__c
             });
         });
-        console.log(subscription);
         subscription.callback(() => console.log('Subscribed'));
         subscription.errback((err) => {
             console.log('failed to subscribe:')
