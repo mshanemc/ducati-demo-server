@@ -9,10 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "faye": "^1.2.4",
-    "nforce": "^1.7.0",
+    "heroku-logger": "^0.3.0",
+    "jsforce": "^1.8.4",
+    "lodash": "^4.17.10",
+    "pug": "2.0.0-beta11",
     "socket.io": "^2.0.3"
   }
 }
