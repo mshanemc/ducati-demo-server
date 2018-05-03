@@ -18,7 +18,7 @@
 		},
 		"environment": {
 			"description": "production or test",
-			"value": "sandbox"
+			"value": "test"
 		},
 		"EVENT_API_NAME" : {
 			"value" : "Ride_Completed__e"
