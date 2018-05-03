@@ -24,7 +24,7 @@
 			"value" : "Ride_Completed__e"
 		},
 		"EVENT_JSON" : {
-			"value" : "{ 'Weather__c': 'Snow' }"
+			"value" : "{\"Weather__c\" : \"Snow\"}"
 		}
 	},
 	"addons": [

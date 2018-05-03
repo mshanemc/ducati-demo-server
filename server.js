@@ -131,6 +131,7 @@ const conn = new jsforce.Connection({ oauth2: oauth2 });
 conn.login(process.env.SFDC_USERNAME, process.env.SFDC_PASSWORD, function (err, res) {
 
     if (err) {
+        console.log('login error')
         return console.log(err);
     } else {
         console.log('conected successfully!');
