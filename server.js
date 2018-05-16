@@ -101,7 +101,7 @@ const server = app.listen(port, () => {
 });
 
 // streaming api stuff
-let io = require('socket.io')(server);
+let io = require('socket.io').listen(server);
 
 
 let bayeux = new faye.NodeAdapter({ mount: '/faye', timeout: 45 });
